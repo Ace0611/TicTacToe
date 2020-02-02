@@ -5,8 +5,9 @@ var ttt = {
     // Reset the board and get HTML container
     ttt.board = [];
     var container = document.getElementById("ttt-game");
+    var paragraph = document.getElementById("paragraph");
     container.innerHTML = "";
-
+    paragraph.style.display = "none";
     // Redraw the squares
     for (let i = 0; i < 9; i++) {
       ttt.board.push(null); //doubt
