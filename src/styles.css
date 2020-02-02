@@ -1,0 +1,23 @@
+#ttt-game {
+  display: grid;
+  max-width: 600px;
+  margin: 0 auto;
+  background: red;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+#ttt-game div {
+  font-size: 3em;
+  text-align: center;
+  background: #eee;
+  padding: 50px;
+}
+
+#ttt-game div.player {
+  background: #c2e3ff;
+}
+
+#ttt-game div.computer {
+  background: #ffebeb;
+}
